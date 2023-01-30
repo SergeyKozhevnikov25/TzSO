@@ -91,6 +91,7 @@ class MapFragment : Fragment() {
         setupViewModel()
 
         binding.btnAddPoint.setOnClickListener {
+            requireActivity().supportFragmentManager.popBackStack()
             requireActivity().supportFragmentManager
                 .beginTransaction()
                 .replace(

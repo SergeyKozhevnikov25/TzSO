@@ -46,6 +46,7 @@ class InfoFragment : Fragment() {
             requireActivity().supportFragmentManager
                 .beginTransaction()
                 .replace(R.id.fragment_container, MapFragment.newInstance(viewModel.point.value))
+                .addToBackStack(null)
                 .commit()
         }
     }
