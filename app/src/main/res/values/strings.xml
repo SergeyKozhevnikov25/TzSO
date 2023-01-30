@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">TzSantehnikaOnline</string>
+    <string name="btn_show_on_map_title">Показать на карте</string>
+    <string name="add_point_title">Подтвердить выбранную точку</string>
+    <string name="point_info_text">Address (%1$s, %2$s)</string>
+    <string name="not_set_point">Точка не задана</string>
+    <string name="location_search_error">Геолокация не включена</string>
+    <string name="location_request_error">Нет разрешения на использование геолокации</string>
 </resources>
